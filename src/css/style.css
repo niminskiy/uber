@@ -147,8 +147,8 @@ button {
 }
 
 .subheader {
-  background-color: rgba(0, 0, 0, 0.6);
   padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo__img {
@@ -240,16 +240,29 @@ button {
   text-align: center;
 }
 
-.points__subtitle {
+.label {
   color: #ffffff;
   font-size: 11px;
-  font-weight: 400;
+  font-weight: 300;
+  width: 112px;
+  padding: 5px 12px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #000000;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.points__label {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
   width: 112px;
   text-align: center;
   text-transform: uppercase;
   background-color: #000000;
   margin: 0 auto;
-  padding: 3px 15px;
+  padding: 8px 12px;
 }
 
 .points__title {
@@ -297,25 +310,27 @@ button {
   font-weight: 300;
 }
 
-/* -----Section Capacity----- */
-.capacity {
+/* -----Section Mobile----- */
+.mobile {
   padding: 56px 80px;
+  background: url("../img/bg_mobile.png") center center/cover no-repeat;
   text-align: center;
 }
 
-.capacity__subtitle {
+.mobile__label {
   color: #ffffff;
   font-size: 11px;
-  font-weight: 400;
+  font-weight: 300;
   width: 112px;
+  padding: 5px 12px;
   text-align: center;
   text-transform: uppercase;
   background-color: #000000;
+  padding: 3px 12px;
   margin: 0 auto;
-  padding: 3px 15px;
 }
 
-.capacity__title {
+.mobile__title {
   color: #222222;
   font-size: 38px;
   font-weight: 700;
@@ -323,23 +338,23 @@ button {
   margin-top: 46px;
 }
 
-.capacity__text {
+.mobile__subtitle {
   color: #222222;
   font-size: 17px;
   font-weight: 400;
 }
 
-.capacity__module {
+.mobile__module {
   margin-top: 32px;
 }
 
-.capacity__item {
+.mobile__item {
   position: relative;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.capacity__block {
+.mobile__block {
   position: absolute;
   top: 0;
   left: 0;
@@ -355,7 +370,7 @@ button {
   padding: 92px 0 25px;
 }
 
-.capacity__heading {
+.mobile__heading {
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
@@ -363,11 +378,11 @@ button {
   padding: 0 24px;
 }
 
-.capacity__sign {
+.mobile__sign {
   margin: 0 auto;
 }
 
-.capacity__icon {
+.mobile__icon {
   width: 26px;
   height: 26px;
   background-color: #000000;
